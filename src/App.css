@@ -6,9 +6,12 @@
 }
 
 body {
-  background-image: url('../images/bg_radiant.svg');
+  background-color: #000;
+  overflow-x: hidden;
+  color: #fff;
+  background-image: url('./assets/images/bg_radiant.svg');
   background-repeat: no-repeat;
-  background-size: 2000px;
+  background-size: auto;
 }
 
 nav {
