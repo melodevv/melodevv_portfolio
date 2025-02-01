@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section
       id='about-me'
-      className='about-section flex flex-col content-center justify-center text-center px-8 xsm:px-16 md:px-24 lg:px-36 2xl:px-96'>
+      className='about-section flex flex-col content-center justify-center text-center px-8 xsm:px-16 md:px-24 lg:px-36'>
       <h2 className='about-title font-extrabold text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl'>
         ABOUT ME
       </h2>

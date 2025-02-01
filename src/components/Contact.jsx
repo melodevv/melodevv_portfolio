@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id='contact'
-      className='project-section flex flex-col content-center justify-center text-center px-5 md:px-7 lg:px-36 2xl:px-96'>
+      className='project-section flex flex-col content-center justify-center text-center pt-36 pb-10 px-5 md:px-7 lg:px-36'>
       <h2 className='project-title font-extrabold text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl'>
         Contact
       </h2>
@@ -13,9 +13,7 @@ export default function Contact() {
       </p>
       <form action='#' method='POST'>
         <div className='mb-4'>
-          <label
-            htmlFor='name'
-            className='block text-gray-700 font-medium mb-2'>
+          <label htmlFor='name' className='block text-dimmed font-medium mb-2'>
             Full Name
           </label>
           <input
@@ -29,9 +27,7 @@ export default function Contact() {
         </div>
 
         <div className='mb-4'>
-          <label
-            htmlFor='email'
-            className='block text-gray-700 font-medium mb-2'>
+          <label htmlFor='email' className='block text-dimmed font-medium mb-2'>
             Email Address
           </label>
           <input
@@ -47,7 +43,7 @@ export default function Contact() {
         <div className='mb-4'>
           <label
             htmlFor='message'
-            className='block text-gray-700 font-medium mb-2'>
+            className='block text-dimmed font-medium mb-2'>
             Your Message
           </label>
           <textarea
@@ -62,7 +58,7 @@ export default function Contact() {
         <div className='flex justify-center'>
           <button
             type='submit'
-            className='w-full py-3 px-4 bg-blue-500 text-white font-semibold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2'>
+            className='w-full py-3 px-4 gradient-background text-white font-semibold rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2'>
             Send Message
           </button>
         </div>

@@ -16,7 +16,7 @@ export default function Experience() {
   return (
     <section
       id='experience'
-      className='experience-section flex flex-col content-center justify-center text-center pt-36 px-8 xsm:px-16 md:px-24 lg:px-36 2xl:px-96'>
+      className='experience-section flex flex-col content-center justify-center text-center pt-36 px-8 xsm:px-16 md:px-24 lg:px-36 '>
       <h2 className='experience-title font-extrabold text-2xl sm:text-3xl md:text-4xl 2xl:text-5xl'>
         Experience
       </h2>

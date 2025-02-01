@@ -6,7 +6,8 @@ export default {
       screens: {
         xsm: '425px',
         sm: '640px',
-        md: '769px',
+        md: '800px',
+        xmd: '850px',
         lg: '1024px',
         xl: '1280px',
         '2xl': '1536px',
@@ -15,6 +16,10 @@ export default {
       spacing: {
         1464: '1464px',
         '10xl': '30rem',
+        '3/5': '60%',
+        '1/20': '5%',
+        '3/25': '12%',
+        '3/20': '15%',
       },
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
